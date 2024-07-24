@@ -46,6 +46,7 @@ const Commitee = async () => {
                         <>
                         {members.map((member) => (
                             <MemberCard 
+                                key={member.id}
                                 name={member.name}
                                 designation={member.designation}
                                 description={member.description}
