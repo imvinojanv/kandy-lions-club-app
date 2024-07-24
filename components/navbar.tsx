@@ -10,7 +10,7 @@ const Navbar = () => {
         <div className="mx-auto max-w-7xl py-2 px-4 flex items-center justify-between bg-white border-2 border-[#1A2D57] rounded-2xl">
             <div className="flex items-center gap-4 ml-2">
                 <Image 
-                    src="/images/logo2.jpg"
+                    src="/Images/logo2.jpg"
                     alt="Logo"
                     width={100}
                     height={100}

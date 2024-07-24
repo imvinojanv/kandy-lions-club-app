@@ -14,7 +14,7 @@ const CauseCard = ({
     return (
         <div className={`${color} p-4 w-full rounded-xl space-y-4`}>
             <Image 
-                src="/images/card-img.png"
+                src="/Images/card-img.png"
                 alt='card img'
                 width={1000}
                 height={1000}

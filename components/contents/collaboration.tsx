@@ -14,7 +14,7 @@ const Collaboration = () => {
                     </div>
                 </div>
                 <Image 
-                    src='/images/elements.svg'
+                    src='/Images/elements.svg'
                     alt='elements'
                     width={400}
                     height={400}

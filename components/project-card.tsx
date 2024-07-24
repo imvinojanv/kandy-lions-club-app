@@ -6,7 +6,7 @@ const ProjectCard = () => {
     return (
         <div className='bg-transparent flex gap-7 p-7 rounded-xl'>
             <Image 
-                src='/images/project-img.png'
+                src='/Images/project-img.png'
                 alt='project image'
                 width={1000}
                 height={1000}
@@ -19,7 +19,7 @@ const ProjectCard = () => {
                 <div className='flex space-x-10'>
                     <div className='flex gap-2'>
                         <Image 
-                            src='/images/heart.svg'
+                            src='/Images/heart.svg'
                             alt='heart'
                             width={44}
                             height={44}
@@ -32,7 +32,7 @@ const ProjectCard = () => {
                     </div>
                     <div className='flex gap-2'>
                         <Image 
-                            src='/images/heart.svg'
+                            src='/Images/heart.svg'
                             alt='heart'
                             width={44}
                             height={44}

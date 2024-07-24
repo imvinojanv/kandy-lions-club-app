@@ -20,14 +20,14 @@ const Footer = () => {
             <div>
                 <div className="flex space-x-4">
                     <Image
-                        src="/images/logo.png"
+                        src="/Images/logo.png"
                         alt='logo'
                         width={72}
                         height={72}
                         className=''
                     />
                     <Image
-                        src="/images/logo2.jpg"
+                        src="/Images/logo2.jpg"
                         alt='logo'
                         width={72}
                         height={72}

@@ -24,7 +24,7 @@ const Testimonial = () => {
                         <p className='text-white font-light mt-6 text-lg'>Hear from those who have experienced the positive change brought by Lions Club Kandy. Their stories of gratitude and transformation inspire us to continue our mission of service and compassion.</p>
                     </div>
                     <Image
-                        src="/images/elements2.svg"
+                        src="/Images/elements2.svg"
                         alt='elements'
                         width={100}
                         height={100}
