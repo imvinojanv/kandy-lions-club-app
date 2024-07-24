@@ -1,0 +1,26 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Email {
+  id            String   @id
+  senderName    String
+  email         String
+  subject       String
+  message       String
+  date          String
+  isForPersonal Boolean?
+}
+
+model Committee {
+  id          String  @id @default(uuid())
+  name        String
+  designation String
+  description String
+  imageUrl    String?
+}
