@@ -4,7 +4,7 @@ import React, { useState } from 'react';
 import { useKeenSlider } from 'keen-slider/react';
 import 'keen-slider/keen-slider.min.css';
 import CauseCard from './cause-card';
-import { ArrowBigRight, ArrowRight } from 'lucide-react';
+import { ArrowRight } from 'lucide-react';
 
 const HeroSlider = () => {
     const [sliderRef, instanceRef] = useKeenSlider({
